@@ -40,11 +40,11 @@ if (UserChoice=="R" or UserChoice=="r"):
     UserChoice=rock
     print("Ya choose: \n", UserChoice)
     
-if (UserChoice=="P" or UserChoice=="P"):
+elif (UserChoice=="P" or UserChoice=="p"):
     UserChoice=paper
     print("Ya choose: \n", UserChoice)
         
-if (UserChoice=="S" or UserChoice=="S"):
+elif (UserChoice=="S" or UserChoice=="s"):
     UserChoice=scissors
     print("Ya choose: \n", UserChoice)
     
@@ -59,20 +59,20 @@ print("And da winner is:")
 if (RoboChoice==UserChoice):
     print("No winner. That is a tie")
         
-if (RoboChoice==rock and UserChoice==scissors):
+elif (RoboChoice==rock and UserChoice==scissors):
     print("Hah, take that! My program is better then you!")
     
-if (RoboChoice==paper and UserChoice==rock):
+elif (RoboChoice==paper and UserChoice==rock):
     print("Hah, take that! My program is better then you!")
         
-if (RoboChoice==scissors and UserChoice==paper):
+elif (RoboChoice==scissors and UserChoice==paper):
     print("Hah, take that! My program is better then you!")
         
-if (UserChoice==rock and RoboChoice==scissors):
+elif (UserChoice==rock and RoboChoice==scissors):
     print("Ah, okey you might be better then my program")
         
-if (UserChoice==paper and RoboChoice==rock):
+elif (UserChoice==paper and RoboChoice==rock):
     print("Ah, okey you might be better then my program")
     
-if (UserChoice==scissors and RoboChoice==paper):
+elif (UserChoice==scissors and RoboChoice==paper):
     print("Ah, okey you might be better then my program")
